@@ -8,4 +8,4 @@ You can download it from [releases page](https://github.com/public-shitty/emojih
 
 ## Screenshots
 
-![девачьки](https://github.com/public-shitty/emojihell/blob/master/screenshots/girls.png]
+![девачьки](https://github.com/public-shitty/emojihell/blob/master/screenshots/girls.png)
