@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    Q_INIT_RESOURCE(resources);
     ui->setupUi(this);
     srand(time(nullptr));
     auto res = QFontDatabase::addApplicationFont(":/OpenSansFont");
