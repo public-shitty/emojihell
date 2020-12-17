@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="OpenSansFont">font/OpenSansEmoji.otf</file>
+    </qresource>
+</RCC>

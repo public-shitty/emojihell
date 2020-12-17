@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <ctime>
+#include <cassert>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -8,6 +9,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     srand(time(nullptr));
+    auto res = QFontDatabase::addApplicationFont(":/OpenSansFont");
+    assert(res >= 0);
+    ui->outputTextEdit->setFont(QFont("OpenSansEmoji", 16));
 }
 
 MainWindow::~MainWindow()

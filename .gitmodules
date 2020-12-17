@@ -1,0 +1,4 @@
+[submodule "font"]
+	path = font
+	url = https://github.com/MorbZ/OpenSansEmoji
+	branch = master
